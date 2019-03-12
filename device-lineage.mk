@@ -18,6 +18,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += device/google/bonito/overlay-lineage/li
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
 
+# LMK
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lmk.use_psi=true
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
