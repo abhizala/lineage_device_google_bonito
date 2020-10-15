@@ -87,3 +87,7 @@ persist.data.mode=concurrent
 persist.bluetooth.bqr.event_mask=14
 # BQR minimum report interval configuration
 persist.bluetooth.bqr.min_interval_ms=500
+
+# props for skia
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
