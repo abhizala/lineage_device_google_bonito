@@ -22,11 +22,6 @@ PRODUCT_COPY_FILES += \
 # GMS
 WITH_GMS_FI := true
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
-
 # LMK
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.use_psi=true
