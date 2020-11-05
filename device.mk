@@ -664,6 +664,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
   logd.logpersistd=logcatd \
   logd.logpersistd.size=30
+endif
+
 
 # b/36703476
 # Set default log size on userdebug/eng build to 1M
