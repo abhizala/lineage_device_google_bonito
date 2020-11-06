@@ -27,4 +27,4 @@ BUILD_FINGERPRINT := google/sargo/sargo:11/RP1A.201105.002/6869500:user/release-
 $(call inherit-product-if-exists, vendor/google/sargo/sargo-vendor.mk)
 
 #Gapps
-$(call inherit-product-if-exists, vendor/google/gapps/gapps.mk)
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)

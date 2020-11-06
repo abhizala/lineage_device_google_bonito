@@ -26,4 +26,4 @@ BUILD_FINGERPRINT := google/bonito/bonito:11/RP1A.201105.002/6869500:user/releas
 $(call inherit-product-if-exists, vendor/google/bonito/bonito-vendor.mk)
 
 #Gapps
-$(call inherit-product-if-exists, vendor/google/gapps/gapps.mk)
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
