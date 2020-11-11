@@ -94,3 +94,7 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.1.vendor \
     vendor.display.config@1.2.vendor \
     vendor.display.config@1.3.vendor
+
+# Active Edge
+PRODUCT_PACKAGES += \
+    ElmyraService
