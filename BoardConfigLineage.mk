@@ -18,5 +18,6 @@ TARGET_KERNEL_SOURCE := kernel/google/bonito
 
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
 
 -include vendor/google/bonito/BoardConfigVendor.mk
