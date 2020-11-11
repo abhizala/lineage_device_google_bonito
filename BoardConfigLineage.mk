@@ -17,5 +17,6 @@ TARGET_KERNEL_CONFIG := lineageos_bonito_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/bonito
 
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
 
 -include vendor/google/bonito/BoardConfigVendor.mk
