@@ -50,15 +50,6 @@ type debugfs_pmic, debugfs_type, fs_type;
 type debugfs_maxfg, debugfs_type, fs_type;
 type debugfs_sched_features, debugfs_type, fs_type;
 
-# kgsl file type for sysfs access
-type sysfs_kgsl, sysfs_type, fs_type;
-type sysfs_kgsl_proc, sysfs_type, fs_type;
-# kgsl snapshot file type for sysfs access
-type sysfs_kgsl_snapshot, sysfs_type, fs_type;
-
-# kgsl gpu model file type for sysfs access
-type sysfs_kgsl_gpu_model, sysfs_type, fs_type;
-
 # /proc
 type proc_wifi_dbg, proc_type, fs_type;
 type proc_f2fs, proc_type, fs_type;
