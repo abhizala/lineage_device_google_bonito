@@ -278,3 +278,6 @@
 
 # vendor-provided system HAL
 /system/bin/hw/hardware\.google\.pixelstats@1\.0-service  u:object_r:pixelstats_system_exec:s0
+
+# kgsl gpu model
+/sys/devices(/platform)?/soc/[a-f0-9]+.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpu_model u:object_r:sysfs_kgsl_gpu_model:s0
